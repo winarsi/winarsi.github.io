@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'poppins' sans-serif;
+}
+body{
+    background-color: white;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    border: 0;
+    background-color: #7400b8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1{
+    color: white;
+}
+.navbar a{
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 25px;
+}
+.navbar a.active, 
+.navbar a:hover{
+    font-weight: bold;
+    color: #ffffff;
+}
+#about{
+    background-color: #FF7F50;
+}
+.home1{
+    text-align: center;
+    padding-top: 10%;
+}
+.home1 img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.home1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.home1 .home-sosmed a{
+    font-size: 2em;
+    margin: 5px;
+    color: FF33F9;
+}
+
+.about{
+    margin: 20%;
+    font-size: 18px;
+    padding: 150px;
+}
+.about h2{
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}
+.resume1{
+    text-align: justify;
+    justify-content: center;
+    margin: 20%;
+    line-height: 2;
+    font-size: 20px;
+    padding: 80px;
+}
+.resume1 h2{
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+}
+.contact1{
+    text-align: center;
+    padding-bottom: 200px;
+}
+.contact1 h2{
+    padding: 5%;
+    font-size: 50px;
+}
+.contact1 a{
+    font-size: 5em;
+    margin: 50px;
+    color: #7400b8;
+}
